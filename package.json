@@ -1,0 +1,22 @@
+{
+  "name": "densync",
+  "version": "1.0.0",
+  "description": "Discord-like chat application built with Electron",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "concurrently \"npm run dev-server\" \"wait-on http://localhost:5173 && electron .\"",
+    "dev-server": "vite"
+  },
+  "devDependencies": {
+    "electron": "^latest",
+    "vue": "^3",
+    "@vitejs/plugin-vue": "^latest",
+    "vite": "^latest",
+    "concurrently": "^latest",
+    "wait-on": "^latest"
+  },
+  "dependencies": {
+    "socket.io-client": "^latest"
+  }
+}
