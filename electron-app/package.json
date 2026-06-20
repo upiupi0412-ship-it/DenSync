@@ -9,14 +9,14 @@
     "dev-server": "vite"
   },
   "devDependencies": {
-    "electron": "^latest",
-    "vue": "^3",
-    "@vitejs/plugin-vue": "^latest",
-    "vite": "^latest",
-    "concurrently": "^latest",
-    "wait-on": "^latest"
+    "electron": "latest",
+    "vue": "3",
+    "@vitejs/plugin-vue": "latest",
+    "vite": "latest",
+    "concurrently": "latest",
+    "wait-on": "latest"
   },
   "dependencies": {
-    "socket.io-client": "^latest"
+    "socket.io-client": "latest"
   }
 }
