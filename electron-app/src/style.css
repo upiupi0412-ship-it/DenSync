@@ -1,0 +1,23 @@
+:root {
+  --discord-dark: #36393f;
+  --discord-darker: #2f3136;
+  --discord-text: #dcddde;
+  --discord-secondary: #72767d;
+  --discord-blue: #5865f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--discord-dark);
+  color: var(--discord-text);
+}
+
+#app {
+  height: 100vh;
+}
