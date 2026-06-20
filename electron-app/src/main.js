@@ -14,16 +14,11 @@ function createWindow() {
     }
   });
 
-  const isDev = process.env.ELECTRON_DEV || false;
-  const startUrl = isDev
-    ? 'http://localhost:5173'
-    : `file://${path.join(__dirname, '../dist/index.html')}`;
+  // 開発環境では localhost:5173 から読み込む
+  const startUrl = 'http://localhost:5173';
 
   mainWindow.loadURL(startUrl);
-
-  if (isDev) {
-    mainWindow.webContents.openDevTools();
-  }
+  mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', () => {
     mainWindow = null;
