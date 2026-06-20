@@ -1,0 +1,29 @@
+{
+  "servers": [
+    {
+      "id": "1",
+      "name": "メインサーバー"
+    }
+  ],
+  "channels": [
+    {
+      "id": "1",
+      "name": "general",
+      "serverId": "1"
+    },
+    {
+      "id": "2",
+      "name": "random",
+      "serverId": "1"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "username": "システム",
+      "text": "サーバーを起動しました",
+      "channelId": "1",
+      "timestamp": 1718881000000
+    }
+  ]
+}
